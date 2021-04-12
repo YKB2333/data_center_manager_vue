@@ -1,0 +1,84 @@
+@import './common/base.scss';
+@import './common/layout.scss';
+@import '@/assets/styles/charts/variables.scss';
+
+.align-self-start{
+  align-self: start;
+}
+
+// 富文本弹窗层级问题
+.tox-silver-sink{
+  z-index: 13001 !important;
+}
+
+.table-center.el-table th > .cell {
+  text-align: center;
+}
+
+.table-center.el-table .cell {
+  text-align: center;
+}
+
+.chart-container {
+  background-color: $chartBoxBg;
+  position: relative;
+}
+
+.slot-chart {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(144,147,153,.3);
+  border-radius: 10px;
+}
+.custom-scrollbar::-webkit-scrollbar-track,
+.custom-scrollbar::-webkit-scrollbar {
+  // background-color: transparent;
+  background-color: #202948;
+  height: 8px;
+}
+
+.custom-dialog-class {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.el-table__fixed-right {
+  height: 100% !important;
+}
+
+.table-header-color.el-table {
+  thead {
+    th,
+    &.is-group th,
+    th.gutter {
+      background: rgb(8, 88, 244);
+      color: #fff;
+    }
+    th.gutter {
+      background: transparent;
+    }
+    th.th-header-color-light {
+      background: rgb(64, 158, 655);
+    }
+  }
+  td.highlight-cell {
+    background-color: #dcdfe6;
+  }
+}
+
+.el-page-header__left {
+  align-items: center;
+}
+.el-page-header__content {
+  flex: 1;
+}
+
+.el-table--scrollable-y .el-table__body-wrapper {
+  overflow: auto;
+  overflow-y: overlay !important;
+}

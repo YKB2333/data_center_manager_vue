@@ -1,0 +1,95 @@
+{
+	"backgroundColor": "#202948",
+	"title": {
+		"left": "left",
+		"top": 10,
+		"textStyle": {
+			"color": "#fff",
+			"rich": {
+				"subtitle": {
+					"color": "#cbd2d8",
+					"fontSize": 12
+				}
+			}
+		}
+	},
+	"grid": {
+		"left": "2%",
+		"containLabel": true
+	},
+	"tooltip": {
+		"trigger": "axis"
+	},
+	"categoryAxis": {
+		"axisLine": {
+			"show": true,
+			"lineStyle": {
+				"color": "#808eb7"
+			}
+		},
+		"axisTick": {
+			"show": false
+		},
+		"axisLabel": {
+			"show": true,
+			"color": "#cbd2d8"
+		},
+		"splitLine": {
+			"show": false
+		}
+	},
+	"valueAxis": {
+		"axisLine": {
+			"show": false,
+			"lineStyle": {
+				"color": "#808eb7"
+			}
+		},
+		"axisLabel": {
+			"show": true,
+			"color": "#cbd2d8"
+		},
+		"axisTick": {
+			"show": false
+		},
+		"splitLine": {
+			"show": false,
+			"color": "#262e4f"
+		},
+		"nameTextStyle": {
+			"color": "#cbd2d8"
+		}
+	},
+	"logAxis": {
+		"axisLine": {
+			"show": false,
+			"lineStyle": {
+				"color": "#808eb7"
+			}
+		},
+		"axisLabel": {
+			"show": true,
+			"color": "#cbd2d8"
+		},
+		"axisTick": {
+			"show": false
+		},
+		"splitLine": {
+			"show": false,
+			"color": "#262e4f"
+		},
+		"nameTextStyle": {
+			"color": "#cbd2d8"
+		}
+	},
+	"legend": {
+		"textStyle": {
+			"color": "#fff"
+		}
+	},
+	"visualMap": {
+		"textStyle": {
+			"color": "#cbd2d8"
+		}
+	}
+}

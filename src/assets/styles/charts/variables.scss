@@ -1,0 +1,14 @@
+
+$chartBoxBg: #202948; // 图表内容背景色
+$splitLineColor: #262e4f; // 分割线颜色
+$titleColor: #ffffff; // 标题颜色
+$axisLabelColor: #7e86a3; // 轴文字颜色
+$warningLabelColor: #ffffff;
+
+:export {
+  chartBoxBg: $chartBoxBg;
+  splitLineColor: $splitLineColor;
+  titleColor: $titleColor;
+  axisLabelColor: $axisLabelColor;
+  axisLabelColorwarningLabelColor: $warningLabelColor;
+}

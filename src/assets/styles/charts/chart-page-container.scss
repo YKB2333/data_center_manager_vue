@@ -1,0 +1,22 @@
+@import './variables.scss';
+.chart-page-container {
+  min-height: 100%;
+  padding: 10px 20px !important;
+  // background-color: #1a223f;
+  color: #ffffff;
+  // background-color: #ffffff;
+  background-color: #180f2a;
+  // /deep/ .el-select .el-input__inner {
+  //   background-color: $chartBoxBg;
+  //   border-color: $splitLineColor;
+  //   color: #ffffff;
+  // }
+  /deep/ .form-data-container,
+  /deep/ .exception-container {
+    color: #ffffff;
+  }
+
+  &.set-max-width {
+    min-width: 1600px;
+  }
+}
